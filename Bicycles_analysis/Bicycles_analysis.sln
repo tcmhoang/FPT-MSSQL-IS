@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Bicycles_analysis", "Bicycles_analysis.dwproj", "{C89E0C6E-0A73-4566-BF41-5098704FFD79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C89E0C6E-0A73-4566-BF41-5098704FFD79}.Development|Default.ActiveCfg = Development
+		{C89E0C6E-0A73-4566-BF41-5098704FFD79}.Development|Default.Build.0 = Development
+		{C89E0C6E-0A73-4566-BF41-5098704FFD79}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCAC3559-76B4-4FD7-BD14-BFA820254A6A}
+	EndGlobalSection
+EndGlobal

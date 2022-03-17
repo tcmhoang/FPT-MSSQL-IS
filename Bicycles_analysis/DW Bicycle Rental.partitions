@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bcc4270f-5793-44f2-a037-bfed91c0c99a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW Bicycle Rental</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>D Currency</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="314776a7-45ca-4bd5-8830-4cb9166244f6">
+          <ID>D Currency</ID>
+          <Name>D Currency</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a4a0e8c9-f5dd-4996-96e9-50d0de74ed6a">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DCurrency</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>D Customer</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e5ed476d-238b-472b-8503-14ba5a7edd45">
+          <ID>D Customer</ID>
+          <Name>D Customer</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="29e9597a-01c8-4a56-839c-ae42dd617472">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DCustomer</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>D Product</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="543c1425-a3a2-4d63-9a6f-882d490099cd">
+          <ID>D Product</ID>
+          <Name>D Product</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e57800c8-4e5c-44a5-b028-f9018510f2e8">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DProduct</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>D Promotion</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6f5cdca6-827e-4cfb-9c3b-6a0f695bade6">
+          <ID>D Promotion</ID>
+          <Name>D Promotion</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1b4fbebc-8a56-44d0-b5c5-f9492be987fb">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DPromotion</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>D Sale Territory</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="604557b9-4efc-426a-a209-c9e61b1a0322">
+          <ID>D Sale Territory</ID>
+          <Name>D Sale Territory</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="52e552c4-3b67-4a18-902f-67230b71f69c">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DSaleTerritory</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>D Time</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="763f1ba6-6451-49a7-90eb-f89dcaa11467">
+          <ID>D Time</ID>
+          <Name>D Time</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="11849b94-1143-4891-9250-a29eff943942">
+            <DataSourceViewID>DW Bicycle Rental</DataSourceViewID>
+            <TableID>dbo_DTime</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
